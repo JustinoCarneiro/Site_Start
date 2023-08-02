@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'arcade';
+    src: url("graphs/PressStart2P.ttf");
+}
+@font-face {
+    font-family: 'street';
+    src: url("graphs/street\ soul.ttf");
+}
+
+html, body {
+    background-color: #FDEED4;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Edição dos links. */
+a {
+    color: #00aae5;
+    text-decoration: none;
+}
+
+/* Edição da cabeça. */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding-bottom: 8px;
+    background-color: #EF8517;
+    color: #156444;
+}
+
+header > div {
+    display: inline-block;
+}
+
+/* Edição do menu. */
+#menu {
+    position: fixed;
+    text-align: center;
+    top: clamp(25px, 4vw, 38px);
+    right: clamp(30px, 1vw, 60px);
+    width: 59%;
+    font-size: clamp(4px, 1vw, 12px);
+    font-family: arcade;
+}
+
+a.none {
+    color: #156444;
+}
+
+header > div > ol > li{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: #FDEED4;
+    padding-top: clamp(1px, 1vw, 6px);
+    padding-bottom: clamp(1px, 1vw, 6px);
+    padding-left: clamp(5px, 1vw, 10px);
+    padding-right: clamp(5px, 1vw, 10px);
+    margin-left: clamp(2px, 1vw, 25px);
+    box-shadow: 0.5em 0.5em black;
+}
+
+/* Para quando o mouse passa em cima do menu. */
+header > div > ol > li, a.none:hover{
+    color: #20a36f;
+}
+
+header > div > ol > li:active{
+    color: #156444;
+    box-shadow: 0.2em 0.2em black;
+}
+
+/* Edição da logotipo. */
+header > div > img {
+    position: relative;
+    top: clamp(8px, 10vw, 10px);
+    left: clamp(30px, 5vw, 100px);
+    width: clamp(100px, 15vw, 400px);
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Edição do corpo. */
+main {
+    padding-top: 20px;
+    margin-top: clamp(100px, 15vw, 200px);
+    z-index: 1;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: clamp(10px, 2vw, 20px);
+    text-align: justify;
+    width: clamp(100px, 80vw, 800px);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FDEED4;
+    color: #034b2e;
+}
+
+/* Delimitar onde o link interno levará dentro da página. */
+#link_apresentação {
+    margin-bottom: clamp(10px, 10em, 250px);
+    width: 100%;
+    border: 1px solid #FDEED4; 
+}
+
+h1 {
+    text-align: left;
+    font-size: clamp(25px, 6vw, 60px);
+}
+
+/* Edição do bloco das fotos dos líderes */
+.líderes {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin-left: clamp(30px,6vw,90px);
+    margin-bottom: 15px;
+}
+
+img.líderesc {
+    text-align: center;
+    width: clamp(50px, 15vw, 400px);
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: center;
+    /* border: 0.3em solid #034b2e; */
+    box-shadow: 0.3em 0.3em black;
+}
+
+figcaption {
+    position: relative;
+    top: clamp(0px, 1vw, 10px);
+    left: clamp(20px, 2vw, 10px);
+    text-align: start;
+    font-size: clamp(6px, 1vw, 15px);
+    width: clamp(110px, 20vw, 250px);
+}
+
+/* Edição unificada dos blocos "missão", "visão" e "valores". */
+
+#link_missão {
+    width: 100%;
+    border: 1px solid #FDEED4; 
+}
+
+#link_missão, #link_visão, #link_visão, #link_valores {
+    margin-bottom: clamp(10px, 17em, 250px);
+}
+
+.linha {
+    margin-bottom: 50px;
+    width: 100%;
+    border: 1px solid #EF8517;
+}
+
+/* Edição dos títulos. */
+dt {
+    font-family: street;
+    text-align: center;
+    font-size: clamp(20px, 10vw, 100px);
+}
+
+/*Tirando a identação dos parágrafos de informações. */
+dd {
+    margin: 0px;
+}
+
+/* Edição do bloco da "missão". */
+.info {
+    margin-bottom: 150px;
+}
+
+/* Edição dos pés da págiga. */
+
+footer { 
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    background-color: black;
+}
+
+/* Não consegui ajustar essa imagem, algo a se aprender.
+footer > img {
+    position: relative;
+    background-color: green;
+    width: clamp(100px, 10vw, 300px);
+    top: 5px;
+    left: 1150px;
+    padding: 0px;
+    margin: 0px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center;
+} 
+*/
+
+#logo_instagram, #logo_email {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: clamp(12px, 5vw, 40px);
+    object-fit: cover;
+    object-position: center;
+}
+
+#logo_email {
+    margin-left: clamp(20px, 5vw, 40px);
+}

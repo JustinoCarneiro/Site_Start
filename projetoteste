@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Minha página teste.</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="graphs/logo start azul sticker.png">
+            </div>  
+            <div id="menu">
+                <ol>
+                    <li id="about"><a class="none" href="#link_apresentação">NOSSA FAMILIA</a></li>
+                    <li><a class="none" href="#link_missão">MISSAO</a></li>
+                    <li><a class="none" href="#link_visão">VISAO</a></li>
+                    <li><a class="none" href="#link_valores">VALORES</a></li>
+                </ol>
+            </div>  
+        </header>
+        <main>
+            <div id="link_apresentação"></div>
+            <div id="apresentação">
+            <h1>Seja muito bem-vindo,<br> 
+                a família START FORTALEZA!</h1>
+                <p>
+                    Nós, DIFLEN START Fortaleza, somos uma extensão do DIFLEN Fortaleza comprometida em estabelecer uma 
+                    cultura de oração, adoração, comunhão e evangelismo por meio do ensino da palavra na 
+                    doutrina dos apóstolos, discipulado e adoração, em meio aos adolescentes.
+                </p>
+            </div>
+                <div id="imagens">
+                    <figure class="líderes">
+                        <img class="líderesc" src="graphs/wandejack.png" alt="Foto da liderança do Start Ceará, Wanderson e Jaquelane Alves.">
+                        <figcaption>
+                            <a href="">Wanderson Alves</a> e <a href="">Jaquelane Alves</a>, lideres e supervisores do Start Ceará.
+                        </figcaption>
+                    </figure>
+                    <figure class="líderes">
+                        <img class="líderesc" src="graphs/samueleana.png" alt="Foto da liderança do Diflen Ceará, Samuel Asafe e Anna Deleo.">
+                        <figcaption>
+                            <a href="https://www.instagram.com/samuelasafe/?hl=pt" target="_blank">Pr Samuel Asafe</a> e 
+                            <a href="https://www.instagram.com/annadeleosiqueira/?hl=pt" target="_blank">Pr Anna Deleo</a>, líderes
+                            e supervisores do Diflen Ceará.
+                        </figcaption>
+                    </figure> 
+                    <div id="link_missão"></div>
+                </div>
+            <dl>
+            <div id="missão" class="info">
+            <dt>MISSAO</dt>
+                <dd>
+                    Ganhar, preparar e enviar os adolescentes para a grande comissão com excelência nos 
+                    ministérios da igreja local, através de escolas de capacitação, grupos de estudos bíblicos, 
+                    cultos, células e discipulados e com isso levantaremos uma geração santa, cheia de ousadia 
+                    que não se molda aos padrões deste mundo e cujo amor nos últimos dias não esfriará!
+                </dd>
+                <div id="link_visão" class="linha"></div>
+            </div>
+            <div id="visão" class="info">
+            <dt>VISAO</dt>
+                <dd>
+                    Formar um exército de adolescentes empoderados pela palavra e pelo Espírito Santo, 
+                    obediente aos pais e autoridades, que vivem em Santidade e pregam o evangelho 
+                    com ousadia no sobrenatural de Deus.
+                </dd>
+                <div id="valores" class="linha"></div>
+            </div> 
+            <div id="link_valores"></div>
+            <dt>VALORES</dt>
+                <dd>
+                    Queremos sempre ser e agir como Jesus e para isso possuímos valores que não 
+                    negociamos por nada, a fim de, segundo Efésios 4, alcançar a estrutura de homem perfeito.<br>
+                    <br>
+                    Nossos valores são:
+                    <ul>
+                        <li>Amor pela presença e pela palavra;</li>
+                        <li>Santidade;</li>
+                        <li>Viver em família;</li>
+                        <li>Unidade;</li>
+                        <li>Igreja Local;</li>
+                        <li>Comunhão.</li>
+                    </ul>
+                </dd>
+                <div class="linha"></div>
+            </div>
+            </dl>
+        </main>
+        <footer>
+            <!-- <img src="Logo 2020 do start.png"> Não  consegui ajustar essa imagem algo a se aprender. -->
+            <div id="logofinal">
+                <a href="https://www.instagram.com/startfortaleza/" title="Ministério de adolescente da Paz Church Fortaleza" 
+                target="_blank"> <img id="logo_instagram" src="graphs/instagram_318-576268.avif"></a> 
+                <a href="mailto:diflenstartfortaleza@gmail.com"><img id="logo_email" src="graphs/732026.png"></a> 
+            </div>
+        </footer>
+    </body>
+</hmtl>
